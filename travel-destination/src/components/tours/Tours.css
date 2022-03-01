@@ -1,0 +1,14 @@
+#divTour{
+   
+    color: rgb(29, 7, 87);
+    text-align: center;
+    width:500px ;
+    margin: auto;
+   background-color: rgba(210, 255, 50, 50);
+}
+
+img{
+    width: 500px;
+    border-radius: 100px;
+ 
+}
