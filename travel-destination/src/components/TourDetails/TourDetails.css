@@ -1,0 +1,14 @@
+.Box{
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    align-items: center;
+    text-align: center;
+    width:50% ;
+    height:fit-content;
+    margin: auto;
+    display: block;
+    align-items: center;
+    border:groove 2px black;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}

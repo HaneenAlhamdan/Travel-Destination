@@ -1,15 +1,16 @@
+import React from 'react';
 import "./Tours.css";
+// import Tour
 const Tours = (props) =>{
     return(
         <>
-        <div id="Tou">
+        <div id="content">
         {
             props.tour.map(data => {
                 return(
-                    <div id="divTour">
-                        <h2>City :{data.name}</h2>
-                        <img src={data.image} alt="" />
-                    </div>
+                    <>
+                    {/* <Tour data={data}/> */}
+                    </>
                 )
                 
             })
