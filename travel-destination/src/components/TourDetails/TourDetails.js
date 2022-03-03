@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from '../header/Header.jsx';
-import Footer from '../footer/Footer.jsx';
+import Header from '../header/Header.js';
+import Footer from '../footer/Footer.js';
 import { useParams } from 'react-router-dom';
 import "./TourDetails.css";
 export default function TourDetails({ data }) {

@@ -1,11 +1,20 @@
 import React from 'react';
+import "./Tour.css";
 import {Link} from "react-router-dom";
-import "./Navbar.css";
-function Navbar() {
+const Tour = ({data}) =>{
     return(
-        <nav>
-            <Link to="/">Home Page</Link>
-      </nav>
+        <>
+        <Link to={`/city/${data.id}`}>
+        <div id={data.id}>
+        <h3>Place :{data.name}</h3>
+        <img src={data.image} alt="" />
+        </div>
+        </Link>
+        
+        </>
+        
+        
     )
-}
-export default Navbar;
+};
+
+export default Tour;
