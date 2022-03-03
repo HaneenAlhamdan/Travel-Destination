@@ -1,4 +1,5 @@
 import "./Header.css"
+// import Navbar from "../Navbar/Navbar";
 function Header() {
     return(
         <>
@@ -6,6 +7,7 @@ function Header() {
         <h1>Travel-Destination</h1>
         
         </header>
+        {/* <Navbar/> */}
         </>
         
     )

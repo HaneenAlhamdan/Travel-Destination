@@ -1,12 +1,18 @@
 
 import React from 'react';
-import Home from './components/home/Home';
+// import Home from './components/home/Home';
 import "./App.css";
+// import { Routes, Route } from "react-router-dom";
+// import data  from './data/data.json';
+// import TourDetails from './components/TourDetails/TourDetails';
 
 export default function App() {
   return (
     <>
-    <Home />
+    {/* <Routes> */}
+    {/* <Route path="/" element={<Home data={data}/>} /> */}
+    {/* <Route path="/city/:id" element={<TourDetails data={data}/>} /> */}
+    {/* </Routes> */}
     </>
   )
 }
